@@ -32,11 +32,11 @@ int main()
 {
 	int arr[3][3];
 
-	FillMatrix(arr, 5, 5);
+	FillMatrix(arr, 3, 3);
 
 	cout << "\nThe following is a 3x3 ordered matrix:\n";
 
-	PrintMatrix(arr, 5, 5);
+	PrintMatrix(arr, 3, 3);
 
 
 	return 0;
